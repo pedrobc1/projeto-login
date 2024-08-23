@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 768px){
+    section{
+        width: 90vw ;
+    }
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    div#forms{
+        float: right;
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 992px){
+    section{
+        width: 90vw ;
+        width: 950px;
+    }
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    div#forms{
+        float: right;
+        width: 50%;
+    }
+}
