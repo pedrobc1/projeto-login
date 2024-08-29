@@ -15,17 +15,20 @@
     }
 }
 @media only screen and (min-width: 992px){
-    section{
+    section{;
         width: 90vw ;
         width: 950px;
     }
+    section > p {
+        font-size: 1.2em;
+    }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     div#forms{
-        float: right;
+        float: left;
         width: 50%;
     }
 }

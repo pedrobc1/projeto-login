@@ -33,6 +33,7 @@ section{
 }
 section p{
     text-align:start;
+    font-size: 0.8em;
 }
 div#imagem{
     background-image: url(../imagens/pexels-slendyalex-3648850.jpg);
